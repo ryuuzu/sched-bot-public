@@ -1,6 +1,7 @@
 import discord
-from datetime import datetime as dt
 import json
+import logging
+from datetime import datetime as dt
 from discord.ext import commands
 
 
@@ -8,16 +9,50 @@ bot = commands.Bot(command_prefix= ".")
 with open("schedule.json", 'r') as f:
     allsched = json.load(f)
 
+logger = logging.getLogger('discord')
+logger.setLevel(logging.DEBUG)
+handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w')
+handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
+logger.addHandler(handler)
+
 @bot.event
 async def on_ready():
     print(f"{bot.user.name} is ready to rock.")
 
-@bot.command(aliases = ['sch'])
-async def schedule(ctx, group:str):
-    group = group.capitalize()
+@bot.command(aliases = ['nc'])
+async def nextclass(ctx, group:str = None):
+    author = ctx.author
+    specialization = author.top_role
+    if group == None:
+        for x in author.role:
+            if x.name.startswith("C") or x.name.startswith("M") or x.name.startswith("N"):
+                group = x.name
+                break
+    group = group.upper()
     today = []
     try:
-        routine = allsched[group]
+        routine = specialization[group]
+    except KeyError:
+        await ctx.send("Group not found.")
+    day = dt.strftime(dt.now(), "%a").upper()
+    for period in routine:
+        if period['Day'] == day:
+            today.append(period)
+    
+
+@bot.command(aliases = ['sch'])
+async def schedule(ctx, group:str = None):
+    author = ctx.author
+    specialization = author.top_role
+    if group == None:
+        for x in author.role:
+            if x.name.startswith("C") or x.name.startswith("M") or x.name.startswith("N"):
+                group = x.name
+                break
+    group = group.upper()
+    today = []
+    try:
+        routine = specialization[group]
     except KeyError:
         await ctx.send("Group not found.")
     day = dt.strftime(dt.now(), "%a").upper()
@@ -40,4 +75,4 @@ async def schedule(ctx, group:str):
 
 
 
-bot.run('NDAwNjg4NzY0MTM5MjA4NzE0.WlZAfQ.p3BrakR71bK9Ia3y5_SaUXyEfgU')
+bot.run('ODE3OTgyMTE0NjkxMTUzOTIx.YERbNQ.QjnxcYpwmhgNMxgrhFvs0OZsLcU')

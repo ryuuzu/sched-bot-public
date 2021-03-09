@@ -1,0 +1,2191 @@
+{
+    "C1": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 700,
+                "End Time": 830,
+                "Time": "07:00 AM - 08:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Sukrit Shakya",
+                "Group": "C1+C2+C3",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1000,
+                "End Time": 1130,
+                "Time": "10:00 AM - 11:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Puranjan Acharya",
+                "Group": "C1+C2+C3",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Mohit Sharma",
+                "Group": "C1+C2+C3",
+                "Block": "Alumni",
+                "Room": "LT06 - Anushka Baral"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 1130,
+                "End Time": 1300,
+                "Time": "11:30 AM - 01:00 PM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1+C2+C3",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "FRI": [
+            {
+                "Day": "FRI",
+                "Start Time": 900,
+                "End Time": 1030,
+                "Time": "09:00 AM - 10:30 AM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Prakash Adhikari",
+                "Group": "C1+C2+C4",
+                "Block": "Alumni",
+                "Room": "LT08 - Sakshyam Bikram Shah"
+            },
+            {
+                "Day": "FRI",
+                "Start Time": 1130,
+                "End Time": 1300,
+                "Time": "11:30 AM - 01:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sanjaya Regmi",
+                "Group": "C1+C2+C4",
+                "Block": "Alumni",
+                "Room": "LT04 - Tridev Gurung"
+            }
+        ]
+    },
+    "C2": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 700,
+                "End Time": 830,
+                "Time": "07:00 AM - 08:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Sukrit Shakya",
+                "Group": "C1+C2+C3",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1000,
+                "End Time": 1130,
+                "Time": "10:00 AM - 11:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Puranjan Acharya",
+                "Group": "C1+C2+C3",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Mohit Sharma",
+                "Group": "C1+C2+C3",
+                "Block": "Alumni",
+                "Room": "LT06 - Anushka Baral"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 1130,
+                "End Time": 1300,
+                "Time": "11:30 AM - 01:00 PM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1+C2+C3",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "FRI": [
+            {
+                "Day": "FRI",
+                "Start Time": 900,
+                "End Time": 1030,
+                "Time": "09:00 AM - 10:30 AM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Prakash Adhikari",
+                "Group": "C1+C2+C4",
+                "Block": "Alumni",
+                "Room": "LT08 - Sakshyam Bikram Shah"
+            },
+            {
+                "Day": "FRI",
+                "Start Time": 1130,
+                "End Time": 1300,
+                "Time": "11:30 AM - 01:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sanjaya Regmi",
+                "Group": "C1+C2+C4",
+                "Block": "Alumni",
+                "Room": "LT04 - Tridev Gurung"
+            }
+        ]
+    },
+    "C3": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 700,
+                "End Time": 830,
+                "Time": "07:00 AM - 08:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Sukrit Shakya",
+                "Group": "C1+C2+C3",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1000,
+                "End Time": 1130,
+                "Time": "10:00 AM - 11:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Puranjan Acharya",
+                "Group": "C1+C2+C3",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Mohit Sharma",
+                "Group": "C1+C2+C3",
+                "Block": "Alumni",
+                "Room": "LT06 - Anushka Baral"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 1130,
+                "End Time": 1300,
+                "Time": "11:30 AM - 01:00 PM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1+C2+C3",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "FRI": [
+            {
+                "Day": "FRI",
+                "Start Time": 1130,
+                "End Time": 1300,
+                "Time": "11:30 AM - 01:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Prakash Adhikari",
+                "Group": "C3+C8+C12+C13",
+                "Block": "London",
+                "Room": "LT03 - Westminster Palace"
+            },
+            {
+                "Day": "FRI",
+                "Start Time": 1300,
+                "End Time": 1430,
+                "Time": "01:00 PM - 02:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sugat Man Shakya",
+                "Group": "C3+C8+C12",
+                "Block": "Alumni",
+                "Room": "LT07 - Pravash Karki"
+            }
+        ]
+    },
+    "C4": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 700,
+                "End Time": 830,
+                "Time": "07:00 AM - 08:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C4+C5+C6",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Puranjan Acharya",
+                "Group": "C4+C5+C6",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 1000,
+                "End Time": 1130,
+                "Time": "10:00 AM - 11:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C4+C5+C6",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1330,
+                "End Time": 1500,
+                "Time": "01:30 PM - 03:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Prabodh Tuladhar",
+                "Group": "C4+C5+C6",
+                "Block": "Alumni",
+                "Room": "LT07 - Pravash Karki"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "FRI": [
+            {
+                "Day": "FRI",
+                "Start Time": 900,
+                "End Time": 1030,
+                "Time": "09:00 AM - 10:30 AM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Prakash Adhikari",
+                "Group": "C1+C2+C4",
+                "Block": "Alumni",
+                "Room": "LT08 - Sakshyam Bikram Shah"
+            },
+            {
+                "Day": "FRI",
+                "Start Time": 1130,
+                "End Time": 1300,
+                "Time": "11:30 AM - 01:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sanjaya Regmi",
+                "Group": "C1+C2+C4",
+                "Block": "Alumni",
+                "Room": "LT04 - Tridev Gurung"
+            }
+        ]
+    },
+    "C5": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 700,
+                "End Time": 830,
+                "Time": "07:00 AM - 08:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C4+C5+C6",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Puranjan Acharya",
+                "Group": "C4+C5+C6",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1430,
+                "End Time": 1600,
+                "Time": "02:30 PM - 04:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Biwash Adhikari",
+                "Group": "C5+C6",
+                "Block": "London",
+                "Room": "LT03 - Westminster Palace"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 1000,
+                "End Time": 1130,
+                "Time": "10:00 AM - 11:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C4+C5+C6",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1330,
+                "End Time": 1500,
+                "Time": "01:30 PM - 03:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Prabodh Tuladhar",
+                "Group": "C4+C5+C6",
+                "Block": "Alumni",
+                "Room": "LT07 - Pravash Karki"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "FRI": [
+            {
+                "Day": "FRI",
+                "Start Time": 1300,
+                "End Time": 1430,
+                "Time": "01:00 PM - 02:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Nadil Poudel",
+                "Group": "C5+C6+C7",
+                "Block": "Alumni",
+                "Room": "LT04 - Tridev Gurung"
+            }
+        ]
+    },
+    "C6": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 700,
+                "End Time": 830,
+                "Time": "07:00 AM - 08:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C4+C5+C6",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Puranjan Acharya",
+                "Group": "C4+C5+C6",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1430,
+                "End Time": 1600,
+                "Time": "02:30 PM - 04:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Biwash Adhikari",
+                "Group": "C5+C6",
+                "Block": "London",
+                "Room": "LT03 - Westminster Palace"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 1000,
+                "End Time": 1130,
+                "Time": "10:00 AM - 11:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C4+C5+C6",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1330,
+                "End Time": 1500,
+                "Time": "01:30 PM - 03:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Prabodh Tuladhar",
+                "Group": "C4+C5+C6",
+                "Block": "Alumni",
+                "Room": "LT07 - Pravash Karki"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "FRI": [
+            {
+                "Day": "FRI",
+                "Start Time": 1300,
+                "End Time": 1430,
+                "Time": "01:00 PM - 02:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Nadil Poudel",
+                "Group": "C5+C6+C7",
+                "Block": "Alumni",
+                "Room": "LT04 - Tridev Gurung"
+            }
+        ]
+    },
+    "C7": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Sukrit Shakya",
+                "Group": "C7+C8+C9",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1000,
+                "End Time": 1130,
+                "Time": "10:00 AM - 11:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C7+C8+C9",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1430,
+                "End Time": 1600,
+                "Time": "02:30 PM - 04:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sanjaya Regmi",
+                "Group": "C7+C13+C14",
+                "Block": "London",
+                "Room": "LT02 - Kensington Palace"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C7+C8+C9",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1330,
+                "End Time": 1500,
+                "Time": "01:30 PM - 03:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Binay Adhikari",
+                "Group": "C7+C8+C9",
+                "Block": "Alumni",
+                "Room": "LT06 - Anushka Baral"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "FRI": [
+            {
+                "Day": "FRI",
+                "Start Time": 1300,
+                "End Time": 1430,
+                "Time": "01:00 PM - 02:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Nadil Poudel",
+                "Group": "C5+C6+C7",
+                "Block": "Alumni",
+                "Room": "LT04 - Tridev Gurung"
+            }
+        ]
+    },
+    "C8": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Sukrit Shakya",
+                "Group": "C7+C8+C9",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1000,
+                "End Time": 1130,
+                "Time": "10:00 AM - 11:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C7+C8+C9",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C7+C8+C9",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1330,
+                "End Time": 1500,
+                "Time": "01:30 PM - 03:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Binay Adhikari",
+                "Group": "C7+C8+C9",
+                "Block": "Alumni",
+                "Room": "LT06 - Anushka Baral"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "FRI": [
+            {
+                "Day": "FRI",
+                "Start Time": 1130,
+                "End Time": 1300,
+                "Time": "11:30 AM - 01:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Prakash Adhikari",
+                "Group": "C3+C8+C12+C13",
+                "Block": "London",
+                "Room": "LT03 - Westminster Palace"
+            },
+            {
+                "Day": "FRI",
+                "Start Time": 1300,
+                "End Time": 1430,
+                "Time": "01:00 PM - 02:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sugat Man Shakya",
+                "Group": "C3+C8+C12",
+                "Block": "Alumni",
+                "Room": "LT07 - Pravash Karki"
+            }
+        ]
+    },
+    "C9": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Sukrit Shakya",
+                "Group": "C7+C8+C9",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1000,
+                "End Time": 1130,
+                "Time": "10:00 AM - 11:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C7+C8+C9",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C7+C8+C9",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1330,
+                "End Time": 1500,
+                "Time": "01:30 PM - 03:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Binay Adhikari",
+                "Group": "C7+C8+C9",
+                "Block": "Alumni",
+                "Room": "LT06 - Anushka Baral"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "FRI": [
+            {
+                "Day": "FRI",
+                "Start Time": 1300,
+                "End Time": 1430,
+                "Time": "01:00 PM - 02:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sanjaya Regmi",
+                "Group": "C9+C15",
+                "Block": "Alumni",
+                "Room": "LT05 - Laxman Niroula"
+            },
+            {
+                "Day": "FRI",
+                "Start Time": 1430,
+                "End Time": 1600,
+                "Time": "02:30 PM - 04:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Nadil Poudel",
+                "Group": "C9+C15",
+                "Block": "Alumni",
+                "Room": "LT04 - Tridev Gurung"
+            }
+        ]
+    },
+    "C10": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bibek Raj Joshi",
+                "Group": "C10+C11+C12",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1130,
+                "End Time": 1300,
+                "Time": "11:30 AM - 01:00 PM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C10+C11+C12",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1300,
+                "End Time": 1430,
+                "Time": "01:00 PM - 02:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Biwash Adhikari",
+                "Group": "C10+C11",
+                "Block": "Alumni",
+                "Room": "LT06 - Anushka Baral"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1430,
+                "End Time": 1600,
+                "Time": "02:30 PM - 04:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Nadil Poudel",
+                "Group": "C10+C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 1000,
+                "End Time": 1130,
+                "Time": "10:00 AM - 11:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sanjaya Regmi",
+                "Group": "C10+C11+C12",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1430,
+                "End Time": 1600,
+                "Time": "02:30 PM - 04:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Mohit Sharma",
+                "Group": "C10+C11+C12",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ]
+    },
+    "C11": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bibek Raj Joshi",
+                "Group": "C10+C11+C12",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1130,
+                "End Time": 1300,
+                "Time": "11:30 AM - 01:00 PM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C10+C11+C12",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1300,
+                "End Time": 1430,
+                "Time": "01:00 PM - 02:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Biwash Adhikari",
+                "Group": "C10+C11",
+                "Block": "Alumni",
+                "Room": "LT06 - Anushka Baral"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 1000,
+                "End Time": 1130,
+                "Time": "10:00 AM - 11:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sanjaya Regmi",
+                "Group": "C10+C11+C12",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1430,
+                "End Time": 1600,
+                "Time": "02:30 PM - 04:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Mohit Sharma",
+                "Group": "C10+C11+C12",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "FRI": [
+            {
+                "Day": "FRI",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Indra Dhakal",
+                "Group": "C11+C14+C16",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ]
+    },
+    "C12": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bibek Raj Joshi",
+                "Group": "C10+C11+C12",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1130,
+                "End Time": 1300,
+                "Time": "11:30 AM - 01:00 PM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C10+C11+C12",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 1000,
+                "End Time": 1130,
+                "Time": "10:00 AM - 11:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sanjaya Regmi",
+                "Group": "C10+C11+C12",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1430,
+                "End Time": 1600,
+                "Time": "02:30 PM - 04:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Mohit Sharma",
+                "Group": "C10+C11+C12",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "FRI": [
+            {
+                "Day": "FRI",
+                "Start Time": 1130,
+                "End Time": 1300,
+                "Time": "11:30 AM - 01:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Prakash Adhikari",
+                "Group": "C3+C8+C12+C13",
+                "Block": "London",
+                "Room": "LT03 - Westminster Palace"
+            },
+            {
+                "Day": "FRI",
+                "Start Time": 1300,
+                "End Time": 1430,
+                "Time": "01:00 PM - 02:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sugat Man Shakya",
+                "Group": "C3+C8+C12",
+                "Block": "Alumni",
+                "Room": "LT07 - Pravash Karki"
+            }
+        ]
+    },
+    "C13": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 700,
+                "End Time": 830,
+                "Time": "07:00 AM - 08:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Prakash Adhikari",
+                "Group": "C13+C14+C15",
+                "Block": "Alumni",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sanjaya Regmi",
+                "Group": "C13+C14+C15",
+                "Block": "Alumni",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1130,
+                "End Time": 1300,
+                "Time": "11:30 AM - 01:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Ujjwal Subedi",
+                "Group": "C13+C14+C15",
+                "Block": "Alumni",
+                "Room": "LT06 - Anushka Baral"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1430,
+                "End Time": 1600,
+                "Time": "02:30 PM - 04:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sanjaya Regmi",
+                "Group": "C7+C13+C14",
+                "Block": "London",
+                "Room": "LT02 - Kensington Palace"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 1300,
+                "End Time": 1430,
+                "Time": "01:00 PM - 02:30 PM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C13+C14+C15",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "FRI": [
+            {
+                "Day": "FRI",
+                "Start Time": 1130,
+                "End Time": 1300,
+                "Time": "11:30 AM - 01:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Prakash Adhikari",
+                "Group": "C3+C8+C12+C13",
+                "Block": "London",
+                "Room": "LT03 - Westminster Palace"
+            }
+        ]
+    },
+    "C14": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 700,
+                "End Time": 830,
+                "Time": "07:00 AM - 08:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Prakash Adhikari",
+                "Group": "C13+C14+C15",
+                "Block": "Alumni",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sanjaya Regmi",
+                "Group": "C13+C14+C15",
+                "Block": "Alumni",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1130,
+                "End Time": 1300,
+                "Time": "11:30 AM - 01:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Ujjwal Subedi",
+                "Group": "C13+C14+C15",
+                "Block": "Alumni",
+                "Room": "LT06 - Anushka Baral"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1430,
+                "End Time": 1600,
+                "Time": "02:30 PM - 04:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sanjaya Regmi",
+                "Group": "C7+C13+C14",
+                "Block": "London",
+                "Room": "LT02 - Kensington Palace"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 1300,
+                "End Time": 1430,
+                "Time": "01:00 PM - 02:30 PM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C13+C14+C15",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "FRI": [
+            {
+                "Day": "FRI",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Indra Dhakal",
+                "Group": "C11+C14+C16",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ]
+    },
+    "C15": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 700,
+                "End Time": 830,
+                "Time": "07:00 AM - 08:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Prakash Adhikari",
+                "Group": "C13+C14+C15",
+                "Block": "Alumni",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sanjaya Regmi",
+                "Group": "C13+C14+C15",
+                "Block": "Alumni",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1130,
+                "End Time": 1300,
+                "Time": "11:30 AM - 01:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Ujjwal Subedi",
+                "Group": "C13+C14+C15",
+                "Block": "Alumni",
+                "Room": "LT06 - Anushka Baral"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 1300,
+                "End Time": 1430,
+                "Time": "01:00 PM - 02:30 PM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C13+C14+C15",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "FRI": [
+            {
+                "Day": "FRI",
+                "Start Time": 1300,
+                "End Time": 1430,
+                "Time": "01:00 PM - 02:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sanjaya Regmi",
+                "Group": "C9+C15",
+                "Block": "Alumni",
+                "Room": "LT05 - Laxman Niroula"
+            },
+            {
+                "Day": "FRI",
+                "Start Time": 1430,
+                "End Time": 1600,
+                "Time": "02:30 PM - 04:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Nadil Poudel",
+                "Group": "C9+C15",
+                "Block": "Alumni",
+                "Room": "LT04 - Tridev Gurung"
+            }
+        ]
+    },
+    "C16": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 700,
+                "End Time": 830,
+                "Time": "07:00 AM - 08:30 AM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sugat Man Shakya",
+                "Group": "C16+C17",
+                "Block": "Nepal",
+                "Room": "TR02 - Patan"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1000,
+                "End Time": 1130,
+                "Time": "10:00 AM - 11:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C16+C17",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1300,
+                "End Time": 1430,
+                "Time": "01:00 PM - 02:30 PM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Ujjwal Subedi",
+                "Group": "C16+C17",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Prakash Adhikari",
+                "Group": "C16+C17",
+                "Block": "Alumni",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1200,
+                "End Time": 1330,
+                "Time": "12:00 PM - 01:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Ujjwal Subedi",
+                "Group": "C16+C17",
+                "Block": "Alumni",
+                "Room": "LT06 - Anushka Baral"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "FRI": [
+            {
+                "Day": "FRI",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Indra Dhakal",
+                "Group": "C11+C14+C16",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ]
+    },
+    "C17": {
+        "SUN": [
+            {
+                "Day": "SUN",
+                "Start Time": 700,
+                "End Time": 830,
+                "Time": "07:00 AM - 08:30 AM",
+                "Class Type": "Q&A",
+                "Module Code": "CT4005NI",
+                "Module Title ": "Computer Hardware & Software Architectures",
+                "Lecturer": "Mr. Sugat Man Shakya",
+                "Group": "C16+C17",
+                "Block": "Nepal",
+                "Room": "TR02 - Patan"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1000,
+                "End Time": 1130,
+                "Time": "10:00 AM - 11:30 AM",
+                "Class Type": "Lecture",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C16+C17",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1300,
+                "End Time": 1430,
+                "Time": "01:00 PM - 02:30 PM",
+                "Class Type": "Lecture",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Ujjwal Subedi",
+                "Group": "C16+C17",
+                "Block": "London",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1430,
+                "End Time": 1600,
+                "Time": "02:30 PM - 04:00 PM",
+                "Class Type": "Q&A",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Nadil Poudel",
+                "Group": "C10+C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            },
+            {
+                "Day": "SUN",
+                "Start Time": 1630,
+                "End Time": 1800,
+                "Time": "04:30 PM - 06:00 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CC4057NI",
+                "Module Title ": "Introduction to Information Systems",
+                "Lecturer": "Mr. Bijay Gautam",
+                "Group": "C1-C17",
+                "Block": "UK",
+                "Room": "DR02 - Meeting Room"
+            }
+        ],
+        "MON": [
+            {
+                "Day": "MON",
+                "Start Time": 830,
+                "End Time": 1000,
+                "Time": "08:30 AM - 10:00 AM",
+                "Class Type": "Lecture",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Prakash Adhikari",
+                "Group": "C16+C17",
+                "Block": "Alumni",
+                "Room": "ONLINE"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1200,
+                "End Time": 1330,
+                "Time": "12:00 PM - 01:30 PM",
+                "Class Type": "Q&A",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Ujjwal Subedi",
+                "Group": "C16+C17",
+                "Block": "Alumni",
+                "Room": "LT06 - Anushka Baral"
+            },
+            {
+                "Day": "MON",
+                "Start Time": 1600,
+                "End Time": 1730,
+                "Time": "04:00 PM - 05:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "MA4001NI",
+                "Module Title ": "Logic and Problem Solving",
+                "Lecturer": "Mr. Ashok Dhungana",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ],
+        "TUE": [],
+        "WED": [],
+        "THU": [
+            {
+                "Day": "THU",
+                "Start Time": 1500,
+                "End Time": 1630,
+                "Time": "03:00 PM - 04:30 PM",
+                "Class Type": "Discussion",
+                "Module Code": "CS4001NI",
+                "Module Title ": "Programming",
+                "Lecturer": "Mr. Roshan Tandukar",
+                "Group": "C1-C17",
+                "Block": "London",
+                "Room": "LT01 - Buckingham Palace"
+            }
+        ]
+    }
+}
