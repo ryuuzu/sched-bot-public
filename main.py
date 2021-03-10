@@ -46,7 +46,7 @@ async def schedule(ctx, group:str = None):
     specialization = author.top_role
     if group == None:
         for x in author.role:
-            if x.name.startswith("C") or x.name.startswith("M") or x.name.startswith("N"):
+            if (x.name.startswith("C") and len(x.name) == 2) or (x.name.startswith("M") and len(x.name) == 2) or (x.name.startswith("N") and len(x.name) == 2):
                 group = x.name
                 break
     group = group.upper()
@@ -67,8 +67,8 @@ async def schedule(ctx, group:str = None):
         embed.add_field(name = "Class Type", value = x['Class Type'])
         embed.add_field(name = "Lecturer", value = x['Lecturer'])
         embed.add_field(name = "Time", value = x['Time'])
-        embed.add_field(name = "Block", value = x['Block'])
-        embed.add_field(name = "Room", value = x['Room'])
+        # embed.add_field(name = "Block", value = x['Block'])
+        # embed.add_field(name = "Room", value = x['Room'])
         await ctx.send(embed = embed)
 
 
