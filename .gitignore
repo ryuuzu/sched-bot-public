@@ -1,1 +1,3 @@
-notthis/
+ignore/
+
+.env

@@ -1,11 +1,17 @@
 import discord
 import json
 import logging
+import pytz
+import os
+from dotenv import load_dotenv
 from datetime import datetime as dt
 from discord.ext import commands
 
+load_dotenv()
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 bot = commands.Bot(command_prefix= ".")
+NST = pytz.timezone('Asia/Kathmandu')
 with open("schedule.json", 'r') as f:
     allsched = json.load(f)
 
@@ -17,45 +23,68 @@ logger.addHandler(handler)
 
 @bot.event
 async def on_ready():
+    await bot.change_presence(activity=discord.Game(name = "Basketball in Islington College"))
     print(f"{bot.user.name} is ready to rock.")
 
 @bot.command(aliases = ['nc'])
 async def nextclass(ctx, group:str = None):
     author = ctx.author
-    specialization = author.top_role
     if group == None:
-        for x in author.role:
-            if x.name.startswith("C") or x.name.startswith("M") or x.name.startswith("N"):
-                group = x.name
-                break
+        specialization = author.top_role.name
+        group = getGroupname(author.roles)
+    elif group.startswith("C") or group.startswith("c"): 
+        specialization = "Computing"
+    elif group.startswith("M") or group.startswith("m"): 
+        specialization = "Multimedia Technologies"
+    elif group.startswith("N") or group.startswith("n"): 
+        specialization = "Computer Networking & IT Security"
     group = group.upper()
     today = []
     try:
-        routine = specialization[group]
+        routine = allsched[specialization][group]
     except KeyError:
         await ctx.send("Group not found.")
-    day = dt.strftime(dt.now(), "%a").upper()
+    day = dt.strftime(dt.now(NST), "%a").upper()
     for period in routine:
         if period['Day'] == day:
             today.append(period)
+    time = dt.strftime(dt.now(NST), "%I:%M%p")
+    a = dt.strptime(time, "%I:%M%p")
+    for period in today:
+        start = period['Time'][:8]
+        print(start)
+        b = dt.strptime(start, "%I:%M %p")
+        if b > a:
+            timerem = b - a
+            embed = discord.Embed(title = f"{period['Module Code']} - {period['Module Title ']}", color = discord.Colour.dark_blue())
+            embed.set_thumbnail(url = bot.user.avatar_url_as(format = "png", size = 512))
+            embed.add_field(name = "Class Type", value = period['Class Type'])
+            embed.add_field(name = "Lecturer", value = period['Lecturer'])
+            embed.add_field(name = "Time", value = period['Time'], inline = False)
+            return await ctx.send(content = f'Your next class is in {timerem.seconds/60} minutes.\nHere are the class details', embed = embed)
+    else:
+        return await ctx.send("Looks like you have no classes today. But I might be wrong, who knows.")
     
 
 @bot.command(aliases = ['sch'])
 async def schedule(ctx, group:str = None):
     author = ctx.author
-    specialization = author.top_role
     if group == None:
-        for x in author.role:
-            if (x.name.startswith("C") and len(x.name) == 2) or (x.name.startswith("M") and len(x.name) == 2) or (x.name.startswith("N") and len(x.name) == 2):
-                group = x.name
-                break
+        specialization = author.top_role.name
+        group = getGroupname(author.roles)
+    elif group.startswith("C") or group.startswith("c"): 
+        specialization = "Computing"
+    elif group.startswith("M") or group.startswith("m"): 
+        specialization = "Multimedia Technologies"
+    elif group.startswith("N") or group.startswith("n"): 
+        specialization = "Computer Networking & IT Security"
     group = group.upper()
     today = []
     try:
-        routine = specialization[group]
+        routine = allsched[specialization][group]
     except KeyError:
-        await ctx.send("Group not found.")
-    day = dt.strftime(dt.now(), "%a").upper()
+        await ctx.send("Looks like something is wrong.\nGroup not found.")
+    day = dt.strftime(dt.now(NST), "%a").upper()
     for period in routine:
         if period['Day'] == day:
             today.append(period)
@@ -64,15 +93,23 @@ async def schedule(ctx, group:str = None):
     await ctx.send(msg)
     for x in today:
         embed = discord.Embed(title = f"{x['Module Code']} - {x['Module Title ']}", color = discord.Colour.dark_blue())
+        embed.set_thumbnail(url = bot.user.avatar_url_as(format = "png", size = 512))
         embed.add_field(name = "Class Type", value = x['Class Type'])
         embed.add_field(name = "Lecturer", value = x['Lecturer'])
-        embed.add_field(name = "Time", value = x['Time'])
+        embed.add_field(name = "Time", value = x['Time'], inline = False)
         # embed.add_field(name = "Block", value = x['Block'])
         # embed.add_field(name = "Room", value = x['Room'])
         await ctx.send(embed = embed)
 
+def getGroupname(roles):
+    for role in roles:
+        if len(role.name) > 4:
+            continue
+        if role.name.startswith("C") or role.name.startswith("M") or role.name.startswith("N"):
+            names = role.name.split("-")
+            groupName = "".join(names)
+            return groupName
 
 
 
-
-bot.run('ODE3OTgyMTE0NjkxMTUzOTIx.YERbNQ.QjnxcYpwmhgNMxgrhFvs0OZsLcU')
+bot.run(TOKEN)
