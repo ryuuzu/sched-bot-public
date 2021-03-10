@@ -14,6 +14,7 @@ bot = commands.Bot(command_prefix= ".")
 NST = pytz.timezone('Asia/Kathmandu')
 with open("schedule.json", 'r') as f:
     allsched = json.load(f)
+bot.remove_command('help')
 
 logger = logging.getLogger('discord')
 logger.setLevel(logging.DEBUG)
@@ -25,6 +26,15 @@ logger.addHandler(handler)
 async def on_ready():
     await bot.change_presence(activity=discord.Game(name = "Basketball in Islington College"))
     print(f"{bot.user.name} is ready to rock.")
+
+@bot.command(aliases = ['help', 'commands'])
+async def cmds(ctx):
+    embed = discord.Embed(title = "Help and Commands", description = "Hello, I am a basic schedule bot that will provide you with your class schedules for the day. My prefix is `.`")
+    embed.set_thumbnail(url = bot.user.avatar_url_as(format = "png", size = 512))
+    embed.add_field(name = "nextclass", value = "(also nc) Look for your next class from the schedule.")
+    embed.add_field(name = "schedule", value = "(also sch) Look for your schedule for the day.")
+    embed.set_footer(text = "The schedule data were collected and stored as json files.")
+    await ctx.send(embed= embed)
 
 @bot.command(aliases = ['nc'])
 async def nextclass(ctx, group:str = None):
