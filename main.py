@@ -39,6 +39,9 @@ async def cmds(ctx):
 @bot.command(aliases = ['nc'])
 async def nextclass(ctx, group:str = None):
     author = ctx.author
+    # if day is None:
+    day = dt.strftime(dt.now(NST), "%a")
+    day = day.upper()
     if group == None:
         specialization = author.top_role.name
         group = getGroupname(author.roles)
@@ -54,7 +57,6 @@ async def nextclass(ctx, group:str = None):
         routine = allsched[specialization][group]
     except KeyError:
         await ctx.send("Group not found.")
-    day = dt.strftime(dt.now(NST), "%a").upper()
     for period in routine:
         if period['Day'] == day:
             today.append(period)
@@ -77,8 +79,11 @@ async def nextclass(ctx, group:str = None):
     
 
 @bot.command(aliases = ['sch'])
-async def schedule(ctx, group:str = None):
+async def schedule(ctx, day:str = None, group:str = None):
     author = ctx.author
+    if day is None:
+        day = dt.strftime(dt.now(NST), "%a")
+    day = day.upper()
     if group == None:
         specialization = author.top_role.name
         group = getGroupname(author.roles)
@@ -94,12 +99,12 @@ async def schedule(ctx, group:str = None):
         routine = allsched[specialization][group]
     except KeyError:
         await ctx.send("Looks like something is wrong.\nGroup not found.")
-    day = dt.strftime(dt.now(NST), "%a").upper()
+    # day = dt.strftime(dt.now(NST), "%a").upper()
     for period in routine:
         if period['Day'] == day:
             today.append(period)
-    if len(today) == 0: return await ctx.send("You have no classes today.")
-    msg = f"You have **{len(today)}** classes today."
+    if len(today) == 0: return await ctx.send("You have no classes on this day.")
+    msg = f"You have **{len(today)}** classes."
     await ctx.send(msg)
     for x in today:
         embed = discord.Embed(title = f"{x['Module Code']} - {x['Module Title ']}", color = discord.Colour.dark_blue())
