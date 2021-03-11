@@ -24,7 +24,7 @@ logger.addHandler(handler)
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Game(name = "Basketball in Islington College"))
+    await bot.change_presence(activity=discord.Game(name = "in Islington College"))
     print(f"{bot.user.name} is ready to rock.")
 
 @bot.command(aliases = ['help', 'commands'])
