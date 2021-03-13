@@ -14,6 +14,8 @@ bot = commands.Bot(command_prefix= ".")
 NST = pytz.timezone('Asia/Kathmandu')
 with open("schedule.json", 'r') as f:
     allsched = json.load(f)
+with open("student.json", "r") as f:
+    students = json.load(f)
 bot.remove_command('help')
 
 logger = logging.getLogger('discord')
@@ -33,6 +35,7 @@ async def cmds(ctx):
     embed.set_thumbnail(url = bot.user.avatar_url_as(format = "png", size = 512))
     embed.add_field(name = "nextclass", value = "(also nc) Look for your next class from the schedule.")
     embed.add_field(name = "schedule", value = "(also sch) Look for your schedule for the day.")
+    embed.add_field(name = "lookup", value = "(also lu) Lookup London Met ID and group by someone's name.")
     embed.set_footer(text = "The schedule data were collected and stored as json files.")
     await ctx.send(embed= embed)
 
@@ -69,7 +72,7 @@ async def nextclass(ctx, group:str = None):
         if b > a:
             timerem = b - a
             embed = discord.Embed(title = f"{period['Module Code']} - {period['Module Title ']}", color = discord.Colour.dark_blue())
-            embed.set_thumbnail(url = bot.user.avatar_url_as(format = "png", size = 512))
+            embed.set_thumbnail(url = bot.user.avatar_url_as(format = "png", size = 128))
             embed.add_field(name = "Class Type", value = period['Class Type'])
             embed.add_field(name = "Lecturer", value = period['Lecturer'])
             embed.add_field(name = "Time", value = period['Time'], inline = False)
@@ -77,6 +80,31 @@ async def nextclass(ctx, group:str = None):
     else:
         return await ctx.send("Looks like you have no classes today. But I might be wrong, who knows.")
     
+
+@bot.command(aliases = ['lu'])
+async def lookup(ctx, *, name):
+    data = []
+    for course in students.keys():
+        coursedat = students[course]
+        for group in coursedat.keys():
+            groupdat = coursedat[group]
+            for student in groupdat:
+                name1 = student['name']
+                if name.upper() == name1:
+                    data.append(student)
+    if len(data) == 0: 
+        return await ctx.send(f"There is no student with name {name}. Make sure you spelled it correctly.")
+    msg = f"I found {len(data)} student/s with that name."
+    await ctx.send(msg)
+    for x in data:
+        embed = discord.Embed(color = discord.Colour.dark_blue())
+        embed.set_thumbnail(url = bot.user.avatar_url_as(format = "png", size = 128))
+        embed.add_field(name = "London Met ID", value = x['id'])
+        embed.add_field(name = "Group", value = x['group'])
+        embed.add_field(name = "Name", value = x['name'], inline = False)
+        embed.set_footer(text = "If the id is null, there was no id data when it was collected.")
+        await ctx.send(embed=  embed)
+    pass
 
 @bot.command(aliases = ['sch'])
 async def schedule(ctx, day:str = None, group:str = None):
@@ -107,13 +135,13 @@ async def schedule(ctx, day:str = None, group:str = None):
     msg = f"You have **{len(today)}** classes."
     await ctx.send(msg)
     for x in today:
-        embed = discord.Embed(title = f"{x['Module Code']} - {x['Module Title ']}", color = discord.Colour.dark_blue())
-        embed.set_thumbnail(url = bot.user.avatar_url_as(format = "png", size = 512))
+        embed = discord.Embed(title = f"{x['Module Code']} - {x['Module Title']}", color = discord.Colour.dark_blue())
+        embed.set_thumbnail(url = bot.user.avatar_url_as(format = "png", size = 128))
         embed.add_field(name = "Class Type", value = x['Class Type'])
         embed.add_field(name = "Lecturer", value = x['Lecturer'])
-        embed.add_field(name = "Time", value = x['Time'], inline = False)
-        # embed.add_field(name = "Block", value = x['Block'])
-        # embed.add_field(name = "Room", value = x['Room'])
+        embed.add_field(name = "Time", value = x['Time'])
+        embed.add_field(name = "Block", value = x['Block'])
+        embed.add_field(name = "Room", value = x['Room'])
         await ctx.send(embed = embed)
 
 def getGroupname(roles):
