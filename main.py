@@ -35,7 +35,7 @@ async def cmds(ctx):
     embed.set_thumbnail(url = bot.user.avatar_url_as(format = "png", size = 512))
     embed.add_field(name = "nextclass", value = "(also nc) Look for your next class from the schedule.")
     embed.add_field(name = "schedule", value = "(also sch) Look for your schedule for the day.")
-    embed.add_field(name = "lookup", value = "(also lu) Lookup London Met ID and group by someone's name.")
+    embed.add_field(name = "lookup", value = "(also lu) Lookup Student Info by someone's name/id.")
     embed.set_footer(text = "The schedule data were collected and stored as json files.")
     await ctx.send(embed= embed)
 
@@ -79,7 +79,6 @@ async def nextclass(ctx, group:str = None):
             return await ctx.send(content = f'Your next class is in {timerem.seconds/60} minutes.\nHere are the class details', embed = embed)
     else:
         return await ctx.send("Looks like you have no classes today. But I might be wrong, who knows.")
-    
 
 @bot.command(aliases = ['lu'])
 async def lookup(ctx, *, name):
@@ -90,8 +89,17 @@ async def lookup(ctx, *, name):
             groupdat = coursedat[group]
             for student in groupdat:
                 name1 = student['name']
-                if name.upper() == name1:
-                    data.append(student)
+                id = student['id']
+                try:
+                    keyword = int(name)
+                except ValueError:
+                    keyword = name
+                if isinstance(keyword, int):
+                    if keyword == id:
+                        data.append(student)
+                else:
+                    if keyword.upper() == name1:
+                        data.append(student)
     if len(data) == 0: 
         return await ctx.send(f"There is no student with name {name}. Make sure you spelled it correctly.")
     msg = f"I found {len(data)} student/s with that name."
@@ -99,9 +107,9 @@ async def lookup(ctx, *, name):
     for x in data:
         embed = discord.Embed(color = discord.Colour.dark_blue())
         embed.set_thumbnail(url = bot.user.avatar_url_as(format = "png", size = 128))
+        embed.add_field(name = "Name", value = x['name'], inline = False)
         embed.add_field(name = "London Met ID", value = x['id'])
         embed.add_field(name = "Group", value = x['group'])
-        embed.add_field(name = "Name", value = x['name'], inline = False)
         embed.set_footer(text = "If the id is null, there was no id data when it was collected.")
         await ctx.send(embed=  embed)
     pass
