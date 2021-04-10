@@ -1,1 +1,5 @@
 ignore/
+sched-bot.sh
+*.json
+*.pickle
+*.log
