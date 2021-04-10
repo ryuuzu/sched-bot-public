@@ -3,3 +3,7 @@ sched-bot.sh
 *.json
 *.pickle
 *.log
+.env
+.vscode/
+.github/
+PROCFILE
